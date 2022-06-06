@@ -36,15 +36,15 @@ body{
     background-color: black;
 }
 .second{
-    /* animation: rotate 60s infinite steps(60); */
+     animation: rotate 60s infinite steps(60); 
     position: absolute;
 }
 .minute{
-    /* animation: rotate 3600s infinite linear; */
+     animation: rotate 3600s infinite steps(60); 
     position: absolute;
 }
 .hour{
-    /* animation: rotate 43200s infinite linear; */
+     animation: rotate 43200s infinite linear; 
     position: absolute;
 }
 
