@@ -13,6 +13,14 @@ body{
     justify-content: center;
     align-items: center;
 }
+.cricle{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    top: 5px;
+    margin-left: 15px;
+    background-color: black;
+}
 
 .hand-hour{
     width: 15px;
@@ -20,12 +28,14 @@ body{
     border-radius: 10px;
     background-color: black;
     position: absolute;
+    bottom: 0px;
 }
 .hand-minute{
     width: 10px;
     height: 180px;
     border-radius: 10px;
     background-color: black;
+    bottom: 0px;
     position: absolute;
 }
 .hand-second{
@@ -33,6 +43,7 @@ body{
     height: 200px;
     border-radius: 10px;
     position: absolute;
+    bottom: 0px;
     background-color: black;
 }
 .second{
