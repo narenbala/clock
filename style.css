@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.outer{
+    width: 600px;
+    height: 600px;
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/04/14/55/clocks-313320_640.jpg);
+    background-size: cover;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand-hour{
+    width: 15px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+}
+.hand-minute{
+    width: 10px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: black;
+    position: absolute;
+}
+.hand-second{
+    width: 8px;
+    height: 200px;
+    border-radius: 10px;
+    position: absolute;
+    background-color: black;
+}
+.second{
+    /* animation: rotate 60s infinite steps(60); */
+    position: absolute;
+}
+.minute{
+    /* animation: rotate 3600s infinite linear; */
+    position: absolute;
+}
+.hour{
+    /* animation: rotate 43200s infinite linear; */
+    position: absolute;
+}
+
+@keyframes rotate {
+    100% {transform: rotatez(360deg);}
+}
